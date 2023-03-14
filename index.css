@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+/**Layout**/
+.container {
+  width: 375px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px #c6c6c6 solid;
+}
+
+header,
+.container-reaction,
+.container-profile {
+  display: flex;
+}
+
+.container-profile {
+  align-items: center;
+  gap: 8px;
+}
+
+.container-reaction {
+  justify-content: space-evenly;
+  width: 104.34px;
+  padding-top: 10px;
+}
+
+.container-comments,
+.container-profile {
+  padding: 2px 10px;
+}
+
+.footer-post {
+  height: 20px;
+  background-color: #ededed;
+}
+/**Images**/
+#logo-img {
+  width: 127px;
+}
+
+#post-img {
+  width: 100%;
+}
+
+.avatar-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 20px;
+}
+
+.container-reaction img {
+  width: 22.38px;
+}
+
+.container-reaction img:hover,
+.container-reaction img:active,
+.container-reaction img:focus {
+  background: #fff;
+  transform: scale(1.2);
+}
+
+/*Typograpy*/
+
+p {
+  font-weight: bold;
+}
+
+.light-text {
+  font-weight: lighter;
+}
+
+.location-info {
+  display: block;
+}
